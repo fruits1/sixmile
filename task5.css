@@ -24,7 +24,7 @@ header span{
 	font-size:0.3rem;
 	background-image:url(images/photo.jpg);
 	background-repeat:no-repeat;
-	background-size:100%;
+	background-size:100% 6rem;
 }
 .personal{
 	position:absolute;
@@ -114,33 +114,36 @@ footer{
     position:fixed;
     bottom:0;
     background:white;
+    display:inline-block;
 
 }
 .message,.tel{
-    display:inline-block;
-    width:50%;
     border-radius:0.1rem;
     text-align:center;
-    line-height:1rem;
-    margin:0.2rem; 
-   
+    line-height:1rem; 
+    cursor:pointer;
+    width:50%;
+    height:1rem;
+
+
 }
+.include{
+	font-size:0;
+	padding:0.2rem;
+	display:flex;
+}
+
 .tel{
-	position:absolute;
     background:#70dbdb;
     border:solid;
     border:0.04rem solid #70dbdb;
-    color:white;
-    float:right;
-    right:0.1rem;
-
+    color:white; 
+    margin-left:0.2rem;     
 }
 .message{
-    float:left;
     border:0.04rem solid #70dbdb; 
     color:#70dbdb;
-    background:white;
-
+    background:white;    
 }
 button{
 	font-size:0.3rem;
