@@ -4,6 +4,7 @@
 }
 html{
 	font-size:625%;
+	white-space:nowrap;
 }
 header{
 	background:#70dbdb;
@@ -53,6 +54,7 @@ dt{
 }
 .vertical{
 	padding-left:0.2rem;
+
 }
 .content dd{
 	line-height:1rem;
@@ -84,6 +86,7 @@ dd{
 .auto{
 	display:flex;
 	align-items:center;
+	white-space:normal;
 
     
 }
@@ -116,6 +119,8 @@ footer{
     background:white;
     display:inline-block;
 
+
+
 }
 .message,.tel{
     border-radius:0.1rem;
@@ -126,11 +131,13 @@ footer{
     height:1rem;
 
 
+
 }
 .include{
 	font-size:0;
 	padding:0.2rem;
 	display:flex;
+
 }
 
 .tel{
