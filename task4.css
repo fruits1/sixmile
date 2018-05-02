@@ -6,6 +6,7 @@ header{
 	background-color:#70dbdb;
 	height:50px;
 	
+	
 }	
 
 .all{
@@ -19,7 +20,8 @@ header{
 }
 
 .register{
-	padding-left:15px;
+	
+	color:white;
 }
 .close{
 	padding-right:15px;
@@ -82,7 +84,7 @@ input{
 }
 
 
-button{
+form button{
 	background-color:#70dbdb;
 	height:50px;
 	width:100%;
@@ -103,4 +105,14 @@ p{
 	
 }
 
+.all button{
+	border:none;
+	background-color:none;
+	height:100%;
+	font-size:20px;
+	padding-left:15px;
+	outline:none;
+
+
+}
 
